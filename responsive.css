@@ -1,0 +1,513 @@
+/*************************** PHONES *********************/
+@media only screen and (max-width: 600px) 
+{
+    /************ SCROLL BAR **********/
+    ::-webkit-scrollbar {
+      width: none;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: none;
+    }
+    ::-webkit-scrollbar-track {
+      background-color: none;
+    }
+
+    /*************** NAVBAR ************/
+    .logo{
+      font-size: 33px;
+      color: #fff;
+      padding: 0.2rem 0 0 1rem;
+      letter-spacing: none;
+      animation: fadeInDown 0.6s;
+    }
+    .nav-links{
+      position: absolute;
+      right: 0;
+      top: 3.2rem;
+      height: 100vh;
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #201f1f;
+      transform: translateX(100%);
+      transition: transform 0.5s ease-in;
+    }
+    .nav-active{
+      transform: translateX(0%);
+    }
+    .nav-links li{
+      margin-bottom: 1rem;
+      padding: 7px 0;
+      animation: fadeInDown 0.6s;
+    }
+    .nav-links a{
+      font-size: 25px;
+    }
+    .hamburger{
+      display: block;
+      animation: fadeInDown 0.6s;
+    }
+    .toggle .line1{
+      transform: translate(-5px,9px) rotate(-45deg);
+    }
+    .toggle .line2{
+      opacity: 0;
+    }
+    .toggle .line3{
+      transform: translate(-5px,-5px) rotate(45deg);
+    }
+    
+    /* ******************** HOME ************ */
+    .home {
+      width: 100%;
+      height: 800px;
+      background: #fff;
+      clip-path: none;
+    }
+    .home .heading {
+      font-size: 7rem;
+      padding: 13rem 0 0 0rem;
+      text-align: center;
+      line-height: 100px;
+      text-shadow: 3px -3px 7px #b7943d;
+    }
+    .content {
+      font-size: 27px;
+      text-align: center;
+      padding: 1.2rem 0 0 0;
+    }
+    .content button {
+      display: block;
+      font-size: 20px;
+      padding: 5px 7px;
+      background: rgba(0, 0, 0, 0.877);
+      margin: 1.3rem auto;
+    }
+    .content button a{
+      color: #fff;
+    }
+    
+    /***************** ABOUT ***********/
+    .about {
+      width: 100%;
+      height: 620px;
+      clip-path: none;
+    }
+    .about .image img {
+      display: none;
+    }
+    .content .about-me-heading {
+      display: block;
+      font-size: 35px;
+      /* text-align: left; */
+      text-align: center;
+      margin: 2rem 0rem 1rem 0rem;
+      letter-spacing: 2px;
+    }
+    .about .content .info {
+      width: 98%;
+      font-size: 32px;
+      text-align: start;
+      letter-spacing: 1.3px;
+      padding: 0 0.3rem 0 1rem;
+    }
+
+    /************* SKILLS SECTION ************ */
+    .skills {
+      height: 550px;
+      /* display: flex; */
+      flex-direction: column;
+      overflow-y: hidden;
+    }
+    .skills .heading{
+      width: 100%;
+      font-size: 40px;
+      letter-spacing: none;
+      padding: 4rem 0 0 4.7rem;
+    }
+    .skill-images{
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-template-rows: repeat(2,1fr);
+      margin: 0rem 1rem 7rem 1rem;
+      overflow-x: hidden;
+    }
+    .skill-images img{
+      height: 120px;
+      padding: 1rem 0rem;
+    }
+    /************* CONTACT SECTION ************ */
+    .contact{
+      height: 420px;
+    }
+    .contact .contact-heading{
+      font-size: 43px;
+      padding-top: 5rem;
+      letter-spacing: 3px;
+    }
+    .contact .info{
+      font-size: 35px;
+      text-align: center;
+      padding: 2rem 1rem 0rem 1rem;
+    }
+    .social-media{
+      font-size: 27px;
+      padding-top: 0.7rem;
+    }
+    .social-media i{
+      color:#fff;
+      padding: 17px;
+    }
+  
+    /*------------- FOOTER SECTION -------- */
+  .footer{
+      width: 100%;
+    }
+    .footer p{
+      font-size: 15px;
+      padding-top: 0.45rem;
+    }
+    .fa-heart {
+      font-size: 15px;
+    }
+  }
+
+
+  /************************* TABLETS ********************** */
+
+  @media only screen and (min-width: 600px) and (max-width:992px)
+{
+    /************ SCROLL BAR **********/
+    ::-webkit-scrollbar {
+      width: 1vw;
+    }
+    ::-webkit-scrollbar-thumb {
+      /* background: none; */
+      background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    }
+    ::-webkit-scrollbar-track {
+      /* background-color: none; */
+      background-color: black;
+    }
+
+    /*************** NAVBAR ************/
+    .logo{
+      font-size: 35px;
+      color: #fff;
+      padding: 0 0 0 1.5rem;
+      letter-spacing: 1px;
+      animation: fadeInDown 0.6s;
+    }
+    .nav-links{
+      position: absolute;
+      right: 0;
+      top: 3.2rem;
+      height: 100vh;
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #201f1f;
+      transform: translateX(100%);
+      transition: transform 0.5s ease-in;
+    }
+    .nav-active{
+      transform: translateX(0%);
+    }
+    .nav-links li{
+      margin-bottom: 1rem;
+      padding: 7px 0;
+    }
+    .nav-links a{
+      font-size: 25px;
+    }
+    .hamburger{
+      display: block;
+      animation: fadeInDown 0.7s;
+    }
+    .toggle .line1{
+      transform: translate(-5px,9px) rotate(-45deg);
+    }
+    .toggle .line2{
+      opacity: 0;
+    }
+    .toggle .line3{
+      transform: translate(-5px,-5px) rotate(45deg);
+    }
+    
+    /* ******************** HOME ************ */
+    .home {
+      width: 100%;
+      height: 800px;
+      background: #fff;
+      clip-path: none;
+    }
+    .home .heading {
+      font-size: 7rem;
+      padding: 13.3rem 0 0 0rem;
+      text-align: center;
+      line-height: 100px;
+      text-shadow: 5px -5px 7px #b7943d;
+    }
+    .content {
+      font-size: 30px;
+      text-align: center;
+      padding: 1.2rem 0 0 0;
+    }
+    .content button {
+      display: block;
+      font-size: 20px;
+      padding: 5px 7px;
+      background: rgba(0, 0, 0, 0.877);
+      margin: 1.3rem auto;
+    }
+    .content button a{
+      color: #fff;
+    }
+    
+    /***************** ABOUT ***********/
+    .about {
+      width: 100%;
+      height: 620px;
+      clip-path: none;
+    }
+    .about .image img {
+      display: none;
+    }
+    .content .about-me-heading {
+      display: block;
+      font-size: 50px;
+      text-align: center;
+      margin: 2.5rem 0rem 1rem 0rem;
+      letter-spacing: 3px;
+    }
+    .about .content .info {
+      width: 98%;
+      font-size: 35px;
+      text-align: start;
+      letter-spacing: 2px;
+      line-height: 42px;
+      padding: 0 0.3rem 0 1rem;
+    }
+    
+    /************* Skills SECTION ************ */
+    .skills {
+      width: 100%;
+      height: 550px;
+      display: flex;
+      justify-content: space-between;
+      overflow-x: hidden;
+    }
+    .skills .heading{
+      font-size: 43px;
+      letter-spacing: none;
+      padding: 14rem 0 0 3.7rem;
+    }
+    .skill-images{
+      width: 53%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3 , 1fr);
+      margin: 4rem -2rem 0 1rem;
+    }
+    .skill-images img{
+      height: 130px;
+    }
+
+    /************* CONTACT SECTION ************ */
+    .contact{
+      height: 420px;
+    }
+    .contact .contact-heading{
+      font-size: 47px;
+      padding-top: 5rem;
+      letter-spacing: 3px;
+    }
+    .contact .info{
+      font-size: 40px;
+      text-align: center;
+      letter-spacing: 1.5px;
+      padding: 2rem 1rem 0rem 1rem;
+    }
+    .social-media{
+      font-size: 33px;
+      padding-top: 1rem;
+    }
+    .social-media i{
+      /* color: teal; */
+      color:#fff;
+      padding: 17px;
+    }
+  
+    /*------------- FOOTER SECTION -------- */
+  .footer{
+      width: 100%;
+    }
+    .footer p{
+      font-size: 15px;
+      padding-top: 0.45rem;
+    }
+    .fa-heart {
+      font-size: 15px;
+    }
+  }
+
+
+  @media only screen and (min-width: 993px) and (max-width:1282px)
+{
+    /************ SCROLL BAR **********/
+    ::-webkit-scrollbar {
+      width: 0.5vw;
+    }
+    ::-webkit-scrollbar-thumb {
+      /* background: none; */
+      background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    }
+    ::-webkit-scrollbar-track {
+      /* background-color: none; */
+      background-color: black;
+    }
+
+    /*************** NAVBAR ************/
+    .logo{
+      font-size: 37px;
+      padding: 0 0 0 4rem;
+      letter-spacing: 1.7px;
+      animation: fadeInLeft 1s;
+    }
+    .nav-links{
+      display: flex;
+      list-style: none;
+      margin-top: 0.5rem;
+      font-family: "Baloo Tammudu 2", cursive;
+    }
+    .nav-links a{
+      text-decoration: none;
+      color: #fff;
+      font-size: 20px;
+      padding: 0 2rem;
+      transition: 0.3s all ease;
+    }
+    .nav-links a:hover{
+      color: gold;
+    }
+    .hamburger{
+      display: none;
+    }
+    /* ******************** HOME ************ */
+    .home {
+      width: 100%;
+      height: 800px;
+      clip-path: none;
+    }
+    .home .heading {
+      font-size: 160px;
+      padding: 9rem 4rem 0 6rem;
+    }
+    .content {
+      font-size: 30px;
+      text-align: center;
+    }
+    .content button {
+      display: block;
+      font-size: 20px;
+      padding: 5px 7px;
+      background: rgba(0, 0, 0, 0.877);
+      margin: 1.3rem auto;
+    }
+    .content button a{
+      color: #fff;
+    }
+    
+    /***************** ABOUT ***********/
+    .about {
+      width: 100%;
+      height: 680px;
+      display: flex;
+      overflow: hidden;
+      clip-path: none;
+    }
+    
+    .about .image img {
+      margin: 10rem 0 0 0;
+      height: 43%;
+    }
+    .content .about-me-heading {
+      font-size: 47px;
+      margin:8rem 13rem 0 0;
+      letter-spacing: 3px;
+    }
+    
+    .about .content .info {
+      width: 100%;
+      font-size: 40px;
+      text-align: start;
+      padding: 1rem 0rem 0rem 2.5rem;
+      letter-spacing: 1px;
+    }
+  
+    /************* SKILLS SECTION ************ */
+    .skills {
+      width: 100%;
+      height: 600px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .skills .heading{
+      font-size: 55px;
+      letter-spacing: 3px;
+      padding: 13rem 0 0 3rem;
+      font-family: "Staatliches", cursive;
+    }
+    .skill-images{
+      width: 53%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2 , 1fr);
+      margin: 5rem 2rem 0 0;
+    }
+    .skill-images img{
+      height: 180px;
+    }
+    
+    /************* CONTACT SECTION ************ */
+    .contact{
+      height: 500px;
+      width: 100%;
+    }
+    .contact .contact-heading{
+      font-size: 57px;
+      padding-top: 5rem;
+      text-align: center;
+      letter-spacing: 3px;
+    }
+    .contact .info{
+      font-size: 50px;
+      text-align: center;
+      padding-top: 1.5rem;
+    }
+    
+    .social-media{
+      font-size: 40px;
+      text-align: center;
+      padding-top: 1rem;
+    }
+  
+    /*------------- FOOTER SECTION -------- */
+    .footer{
+      height: 35px;
+      width: 100%;
+    }
+    .footer p{
+      text-align: center;
+      font-size: 18px;
+      padding-top: 0.35rem;
+    }
+    .fa-heart {
+      font-size: 17px;
+    }
+  }
