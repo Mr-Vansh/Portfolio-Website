@@ -6,6 +6,14 @@ html {
   margin: 0;
   box-sizing: border-box;
 }
+/* LOADER */
+#loader{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background: #fff url(https://i.gifer.com/90mP.gif) no-repeat center;
+}
+
 /* SCROLL BAR */
 ::-webkit-scrollbar{
   width: 0.8vw;
