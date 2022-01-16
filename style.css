@@ -97,7 +97,7 @@ nav{
   padding: 9rem 0 0 7rem;
   text-align: center;
   font-family: "Cookie", cursive;
-  text-shadow: 5px -5px 7px #b7943d;
+  text-shadow: 6px -6px 7px #b7943d;
   animation: zoomInDown 1.2s;
 }
 .content {
