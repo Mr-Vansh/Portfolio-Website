@@ -12,7 +12,7 @@ html {
   position: fixed;
   height: 100vh;
   width: 100%;
-  background: #fff url("images/loader.gif") no-repeat center;
+  background: #fff url("https://flevix.com/wp-content/uploads/2020/06/Square-Loading.gif") no-repeat center;
   z-index: 999;
 }
 
