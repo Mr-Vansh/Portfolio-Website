@@ -46,6 +46,7 @@ nav{
 .logo{
   font-size: 37px;
   color: #fff;
+  cursor: pointer;
   padding: 0 0 0 4rem;
   letter-spacing: 1.7px;
   animation: fadeInLeft 1s;
