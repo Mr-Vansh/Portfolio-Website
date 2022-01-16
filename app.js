@@ -1,3 +1,14 @@
+// Loader
+let loader = document.getElementById("loader");
+setTimeout(function myFunc(){
+    loader.style.display="none";
+},2500)
+
+// OnClick --> ScrollY = top
+function scrollFunc(){
+    window.scrollTo(0,0);
+}
+
 const navSlide = () => {
     const hamburger = document.querySelector('.hamburger');
     const navLinks = document.querySelector('.nav-links');
