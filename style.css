@@ -6,8 +6,20 @@ html {
   margin: 0;
   box-sizing: border-box;
 }
+
+/* Preloader */
+#loader{
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background: #fff url("images/loader.gif") no-repeat center;
+  z-index: 999;
+}
+
+
 /* SCROLL BAR */
 ::-webkit-scrollbar{
+  position: absolute;
   width: 0.8vw;
 }
 ::-webkit-scrollbar-thumb{
