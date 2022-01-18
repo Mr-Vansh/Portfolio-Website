@@ -71,10 +71,7 @@
       padding: 13rem 0 0 0rem;
       text-align: center;
       line-height: 100px;
-/*       text-shadow: 3px -3px 7px #b7943d; */
-/*       text-shadow: 3px -3px 7px #b7943d; */
-      text-shadow: 6px -6px 7px #d7b869;
-
+      text-shadow: 3px -3px 7px #b7943d;
     }
     .content {
       font-size: 27px;
