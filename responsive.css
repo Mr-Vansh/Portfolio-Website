@@ -13,6 +13,10 @@
     }
 
     /*************** NAVBAR ************/
+     #loader{
+      display: none;
+    }
+    
     .logo{
       font-size: 33px;
       color: #fff;
