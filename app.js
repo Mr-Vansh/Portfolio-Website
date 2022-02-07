@@ -2,7 +2,7 @@
 let loader = document.getElementById("loader");
 setTimeout(function myFunc(){
     loader.style.display="none";
-},4300)
+},5000)
 
 // OnClick --> ScrollY = top
 function scrollFunc(){
