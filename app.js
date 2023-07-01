@@ -1,9 +1,3 @@
-// Loader
-let loader = document.getElementById("loader");
-setTimeout(function myFunc() {
-  loader.style.display = "none";
-}, 4500);
-
 // OnClick --> ScrollY = top
 function scrollFunc() {
   window.scrollTo(0, 0);
